@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react';
 export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, '.', '');
     return {
-https://khanh92math.github.io/khanh92math-a11y/
+base: "/khanh92math-a11y/",
       server: {
         port: 3000,
         host: '0.0.0.0',
